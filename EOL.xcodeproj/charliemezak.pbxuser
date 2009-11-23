@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* EOLAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 390}}";
+			sepNavSelRange = "{269, 0}";
+			sepNavVisRange = "{141, 507}";
+		};
+	};
+	1D3623250D0F684500981E51 /* EOLAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1055, 1079}}";
+			sepNavSelRange = "{2477, 0}";
+			sepNavVisRange = "{836, 805}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* EOL */ = {
+		activeExec = 0;
+		executables = (
+			89F27DD110B48139001E4FB4 /* EOL */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 89F27DD110B48139001E4FB4 /* EOL */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* EOL */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* EOL */,
+		);
+		codeSenseManager = 89F27DF110B4815D001E4FB4 /* Code sense */;
+		executables = (
+			89F27DD110B48139001E4FB4 /* EOL */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 280265017;
+			PBXWorkspaceStateSaveDate = 280265017;
+		};
+		perUserProjectItems = {
+			89F27E7310B481EF001E4FB4 /* PBXTextBookmark */ = 89F27E7310B481EF001E4FB4 /* PBXTextBookmark */;
+			89F27E7410B481EF001E4FB4 /* PBXTextBookmark */ = 89F27E7410B481EF001E4FB4 /* PBXTextBookmark */;
+			89F27E7510B481EF001E4FB4 /* XCBuildMessageTextBookmark */ = 89F27E7510B481EF001E4FB4 /* XCBuildMessageTextBookmark */;
+			89F27E7610B481EF001E4FB4 /* PBXTextBookmark */ = 89F27E7610B481EF001E4FB4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 89F27DF010B4815D001E4FB4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	89F27DD110B48139001E4FB4 /* EOL */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EOL;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	89F27DF010B4815D001E4FB4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	89F27DF110B4815D001E4FB4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	89F27DF910B4816F001E4FB4 /* EOLImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1066}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	89F27E7310B481EF001E4FB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* EOLAppDelegate.h */;
+		name = "EOLAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 141;
+	};
+	89F27E7410B481EF001E4FB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EOLAppDelegate.m */;
+		name = "EOLAppDelegate.m: 69";
+		rLen = 0;
+		rLoc = 2477;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 836;
+	};
+	89F27E7510B481EF001E4FB4 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'caption' defined but not used";
+		fRef = 89F27DF910B4816F001E4FB4 /* EOLImage.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	89F27E7610B481EF001E4FB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89F27DF910B4816F001E4FB4 /* EOLImage.h */;
+		name = "EOLImage.h: 14";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+}

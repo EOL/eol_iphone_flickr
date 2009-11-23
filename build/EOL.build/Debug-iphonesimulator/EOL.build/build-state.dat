@@ -1,0 +1,792 @@
+TEOL
+v7
+r0
+t280265271.547866
+cCheck dependencies
+cProcessInfoPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Info.plist EOL-Info.plist
+cCompileXIB /Users/charliemezak/Documents/EOL/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/EOL.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/EOL.app/eBar.png eBar.png
+cCpResource build/Debug-iphonesimulator/EOL.app/redButton.png redButton.png
+cCpResource build/Debug-iphonesimulator/EOL.app/settings.png settings.png
+cCpResource build/Debug-iphonesimulator/EOL.app/background.png background.png
+cCpResource build/Debug-iphonesimulator/EOL.app/settingsLogoopaque.png settingsLogoopaque.png
+cCpResource build/Debug-iphonesimulator/EOL.app/grid.png grid.png
+cCpResource build/Debug-iphonesimulator/EOL.app/settingsLogo.png settingsLogo.png
+cCpResource build/Debug-iphonesimulator/EOL.app/eolLogo.png eolLogo.png
+cCpResource build/Debug-iphonesimulator/EOL.app/Icon.png Icon.png
+cCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Entitlements.plist Entitlements.plist
+cCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Images.plist Images.plist
+cCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/UserInfo.plist UserInfo.plist
+cProcessPCH /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch.gch EOL_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/main.o /Users/charliemezak/Documents/EOL/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLAppDelegate.o /Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrAuthViewController.o /Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrController.o /Users/charliemezak/Documents/EOL/Classes/FlickrController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLImage.o /Users/charliemezak/Documents/EOL/Classes/EOLImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/DataController.o /Users/charliemezak/Documents/EOL/Classes/DataController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageBrowserViewController.o /Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageDetailViewController.o /Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/SettingsViewController.o /Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL normal i386
+cGenerateDSYMFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app.dSYM /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL
+cTouch /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B04169F00000000000000EE
+t1258559135
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004ABDEE58000000000004AFE0
+t1253961304
+s307168
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004ABDEE5400000000000001AF
+t1253961300
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004748A1090000000000002500
+t1195942153
+s9472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Users/charliemezak/Documents/EOL/Classes/DataController.h
+c000000004B04318D00000000000003DD
+t1258566029
+s989
+i<Foundation/Foundation.h>
+i"EOLImage.h"
+i<CoreLocation/CoreLocation.h>
+
+N/Users/charliemezak/Documents/EOL/Classes/DataController.m
+c000000004B04318D00000000000026F0
+t1258566029
+s9968
+i"DataController.h"
+i<math.h>
+
+N/Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.h
+c000000004B044A64000000000000028F
+t1258572388
+s655
+i<UIKit/UIKit.h>
+i"DataController.h"
+i"FlickrAuthViewController.h"
+i"ImageBrowserViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m
+c000000004B044A2A00000000000009AE
+t1258572330
+s2478
+i"EOLAppDelegate.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/EOLImage.h
+c000000004B04318D0000000000000778
+t1258566029
+s1912
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"FlickrController.h"
+i"DataController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/EOLImage.m
+c000000004B04318D0000000000005FE8
+t1258566029
+s24552
+i"EOLImage.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.h
+c000000004B04318D00000000000003E7
+t1258566029
+s999
+i<UIKit/UIKit.h>
+i"FlickrController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m
+c000000004B04318D000000000000172E
+t1258566029
+s5934
+i"FlickrAuthViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/FlickrController.h
+c000000004B04317F00000000000005B3
+t1258566015
+s1459
+i<Foundation/Foundation.h>
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/charliemezak/Documents/EOL/Classes/FlickrController.m
+c000000004B04318D0000000000002AC9
+t1258566029
+s10953
+i"FlickrController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.h
+c000000004B04318D000000000000042B
+t1258566029
+s1067
+i<UIKit/UIKit.h>
+i"FlickrController.h"
+i"DataController.h"
+i"EOLImage.h"
+i"ImageDetailViewController.h"
+i<CoreLocation/CoreLocation.h>
+i"SettingsViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m
+c000000004B04318D000000000000192E
+t1258566029
+s6446
+i"ImageBrowserViewController.h"
+i<math.h>
+
+N/Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.h
+c000000004B04318D00000000000007FF
+t1258566029
+s2047
+i<UIKit/UIKit.h>
+i"DataController.h"
+i"FlickrController.h"
+i"FlickrAuthViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m
+c000000004B04318D0000000000002A48
+t1258566029
+s10824
+i"ImageDetailViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/SettingsViewController.h
+c000000004B04318D0000000000000307
+t1258566029
+s775
+i<UIKit/UIKit.h>
+i"DataController.h"
+i"FlickrController.h"
+i"FlickrAuthViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m
+c000000004B044AAD0000000000001E76
+t1258572461
+s7798
+i"SettingsViewController.h"
+
+N/Users/charliemezak/Documents/EOL/Default.png
+c00000000493E8B950000000000009337
+t1228835733
+s37687
+
+N/Users/charliemezak/Documents/EOL/EOL_Prefix.pch
+c000000004B0449B800000000000000AF
+t1258572216
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/charliemezak/Documents/EOL/Entitlements.plist
+c00000000490B670600000000000000E1
+t1225484038
+s225
+
+N/Users/charliemezak/Documents/EOL/Icon.png
+c00000000493E8B250000000000001955
+t1228835621
+s6485
+
+N/Users/charliemezak/Documents/EOL/Images.plist
+c00000000493ABFA400000000000000B6
+t1228586916
+s182
+
+N/Users/charliemezak/Documents/EOL/MainWindow.xib
+c000000004B0449B80000000000001F3F
+t1258572216
+s7999
+
+N/Users/charliemezak/Documents/EOL/UserInfo.plist
+c00000000493AEED6000000000000015E
+t1228598998
+s350
+
+N/Users/charliemezak/Documents/EOL/background.png
+c00000000493E93080000000000007B2A
+t1228837640
+s31530
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app
+t1258572471
+s646
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app.dSYM
+t1258572471
+s102
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Default.png
+t1258572389
+s37687
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL
+t1258572471
+s143388
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Entitlements.plist
+t1258572389
+s62
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Icon.png
+t1258572389
+s6485
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Images.plist
+t1258572389
+s42
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Info.plist
+t1258572389
+s548
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/MainWindow.nib
+t1258572390
+s1339
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/PkgInfo
+t1258572389
+s8
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/UserInfo.plist
+t1258572389
+s42
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/background.png
+t1258572389
+s31530
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/eBar.png
+t1258572389
+s4530
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/eolLogo.png
+t1258572389
+s19407
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/grid.png
+t1258572389
+s2876
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/redButton.png
+t1258572389
+s4132
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/settings.png
+t1258572389
+s3327
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/settingsLogo.png
+t1258572389
+s39576
+
+N/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/settingsLogoopaque.png
+t1258572389
+s32577
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/DataController.o
+t1258572393
+s35444
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOL.LinkFileList
+c000000004B044A64000000000000044A
+t1258572388
+s1098
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLAppDelegate.o
+t1258572392
+s48328
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLImage.o
+t1258572393
+s80276
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrAuthViewController.o
+t1258572392
+s60576
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrController.o
+t1258572393
+s42596
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageBrowserViewController.o
+t1258572393
+s66336
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageDetailViewController.o
+t1258572394
+s83764
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/SettingsViewController.o
+t1258572471
+s66416
+
+N/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/main.o
+t1258572392
+s5948
+
+N/Users/charliemezak/Documents/EOL/eBar.png
+c000000004942B61E00000000000011B2
+t1229108766
+s4530
+
+N/Users/charliemezak/Documents/EOL/eolLogo.png
+c00000000493E8DA50000000000004BCF
+t1228836261
+s19407
+
+N/Users/charliemezak/Documents/EOL/grid.png
+c00000000493DA4440000000000000B3C
+t1228776516
+s2876
+
+N/Users/charliemezak/Documents/EOL/main.m
+c000000004B0449B80000000000000169
+t1258572216
+s361
+i<UIKit/UIKit.h>
+
+N/Users/charliemezak/Documents/EOL/redButton.png
+c00000000490B445E0000000000001024
+t1225475166
+s4132
+
+N/Users/charliemezak/Documents/EOL/settings.png
+c00000000493C82030000000000000CFF
+t1228702211
+s3327
+
+N/Users/charliemezak/Documents/EOL/settingsLogo.png
+c000000004941CB6D0000000000009A98
+t1229048685
+s39576
+
+N/Users/charliemezak/Documents/EOL/settingsLogoopaque.png
+c000000004941C82C0000000000007F41
+t1229047852
+s32577
+
+N/var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch.gch
+t1258572392
+s8753336
+
+NEOL-Info.plist
+c000000004B0449B8000000000000038D
+t1258572216
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies280265270#280265270#0(0"0(0#1#0"2543396976#0"0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/DataController.o /Users/charliemezak/Documents/EOL/Classes/DataController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265193.220500
+e280265193.514961
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/DataController.o
+x/Users/charliemezak/Documents/EOL/Classes/DataController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m: In function '-[DataController loadData]':
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m:94: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m:100: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m:107: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m: In function '-[DataController saveData]':
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m:134: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/DataController.m: At top level:
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used
+lSLF07#2@66"Compile /Users/charliemezak/Documents/EOL/Classes/DataController.m280265193#280265193#0(874"/Users/charliemezak/Documents/EOL/Classes/DataController.m: In function '-[DataController loadData]':/Users/charliemezak/Documents/EOL/Classes/DataController.m:94: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/DataController.m:100: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/DataController.m:107: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/DataController.m: In function '-[DataController saveData]':/Users/charliemezak/Documents/EOL/Classes/DataController.m:134: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/DataController.m: At top level:/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used6(22@51"Format not a string literal and no format arguments280265193#102#124#0(6@58"/Users/charliemezak/Documents/EOL/Classes/DataController.m280258829#94#0#94#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#226#125#0(6@58"/Users/charliemezak/Documents/EOL/Classes/DataController.m280258829#100#0#100#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#351#125#0(6@58"/Users/charliemezak/Documents/EOL/Classes/DataController.m280258829#107#0#107#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#578#125#0(6@58"/Users/charliemezak/Documents/EOL/Classes/DataController.m280258829#134#0#134#0#51"format not a string literal and no format arguments0(23@13"At top level:280265193#703#74#0(6@58"/Users/charliemezak/Documents/EOL/Classes/DataController.m280258829#0#0#0#0#0"0(22@30"'caption' defined but not used280265193#777#97#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h280258829#14#0#14#0#24"'*' defined but not used0(0#0#58"/Users/charliemezak/Documents/EOL/Classes/DataController.m2543396976#1752"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/DataController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/DataController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLAppDelegate.o /Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265192.294377
+e280265192.732694
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLAppDelegate.o
+x/Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used
+lSLF07#2@66"Compile /Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m280265192#280265192#0(97"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used1(22@30"'caption' defined but not used280265192#0#97#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h280258829#14#0#14#0#24"'*' defined but not used0(0#0#58"/Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m2543396976#1752"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/EOLAppDelegate.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLAppDelegate.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLImage.o /Users/charliemezak/Documents/EOL/Classes/EOLImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265192.898483
+e280265193.711835
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLImage.o
+x/Users/charliemezak/Documents/EOL/Classes/EOLImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage locationManager:didUpdateToLocation:fromLocation:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:51: warning: invalid receiver type 'id <EOLImageDelegate>*'
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:53: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:88: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:100: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:105: warning: invalid receiver type 'id <EOLImageDelegate>*'
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage plistRepresentation]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:126: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForUpload]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:167: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:172: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForGeotagging]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:182: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:187: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForDeletion]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:197: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:202: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForGroupSend]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:212: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:217: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForLicense]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:227: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:232: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage deleteFromFlickr]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:290: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage tags]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:403: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:404: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:412: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage uploadGeoInfo]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:469: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage sendToEOLGroup]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:533: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage setLicense]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:597: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage connection:didFailWithError:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:631: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: invalid receiver type 'id <EOLImageDelegate>*'
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: no '-imageDidFailToUploadToFlickr' method found
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: (Messages without a matching method signature
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: will be assumed to return 'id' and accept
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: '...' as arguments.)
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage connection:didReceiveData:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:649: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage delegate]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:655: warning: return from incompatible pointer type
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage setDelegate:]':
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:659: warning: assignment from incompatible pointer type
+lSLF07#2@60"Compile /Users/charliemezak/Documents/EOL/Classes/EOLImage.m280265192#280265193#0(5639"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage locationManager:didUpdateToLocation:fromLocation:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:51: warning: invalid receiver type 'id <EOLImageDelegate>*'/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:53: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:88: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage parser:didEndElement:namespaceURI:qualifiedName:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:100: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:105: warning: invalid receiver type 'id <EOLImageDelegate>*'/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage plistRepresentation]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:126: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForUpload]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:167: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:172: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForGeotagging]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:182: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:187: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForDeletion]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:197: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:202: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForGroupSend]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:212: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:217: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage generateSignatureForLicense]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:227: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:232: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage deleteFromFlickr]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:290: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage tags]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:403: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:404: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:412: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage uploadGeoInfo]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:469: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage sendToEOLGroup]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:533: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage setLicense]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:597: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage connection:didFailWithError:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:631: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: invalid receiver type 'id <EOLImageDelegate>*'/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: no '-imageDidFailToUploadToFlickr' method found/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: (Messages without a matching method signature/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: will be assumed to return 'id' and accept/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:632: warning: '...' as arguments.)/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage connection:didReceiveData:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:649: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage delegate]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:655: warning: return from incompatible pointer type/Users/charliemezak/Documents/EOL/Classes/EOLImage.m: In function '-[EOLImage setDelegate:]':/Users/charliemezak/Documents/EOL/Classes/EOLImage.m:659: warning: assignment from incompatible pointer type30(22@46"Invalid receiver type 'id <EOLImageDelegate>*'280265193#131#113#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#51#0#51#0#0"0(22@51"Format not a string literal and no format arguments280265193#244#118#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#53#0#53#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#505#118#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#88#0#88#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#753#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#100#0#100#0#51"format not a string literal and no format arguments0(22@46"Invalid receiver type 'id <EOLImageDelegate>*'280265193#872#114#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#105#0#105#0#0"0(22@51"Format not a string literal and no format arguments280265193#1087#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#126#0#126#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1314#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#167#0#167#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1433#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#172#0#172#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1664#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#182#0#182#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1783#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#187#0#187#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2012#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#197#0#197#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2131#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#202#0#202#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2361#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#212#0#212#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2480#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#217#0#217#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2708#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#227#0#227#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2827#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#232#0#232#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3044#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#290#0#290#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3249#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#403#0#403#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3368#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#404#0#404#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3487#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#412#0#412#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3701#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#469#0#469#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#3916#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#533#0#533#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#4127#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#597#0#597#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#4356#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#631#0#631#0#51"format not a string literal and no format arguments0(22@46"Invalid receiver type 'id <EOLImageDelegate>*'280265193#4475#114#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#632#0#632#0#0"0(22@47"No '-imageDidFailToUploadToFlickr' method found280265193#4589#115#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#632#0#632#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)280265193#4704#113#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#632#0#632#0#0"0(22@51"Format not a string literal and no format arguments280265193#5122#119#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#649#0#649#0#51"format not a string literal and no format arguments0(22@37"Return from incompatible pointer type280265193#5331#105#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#655#0#655#0#0"0(22@41"Assignment from incompatible pointer type280265193#5530#109#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m280258829#659#0#659#0#41"assignment from incompatible pointer type0(0#0#52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.m2543396976#1740"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/EOLImage.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOLImage.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrAuthViewController.o /Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265192.494280
+e280265192.898257
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrAuthViewController.o
+x/Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m280265192#280265192#0(0"0(0#0#68"/Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m2543396976#1772"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/FlickrAuthViewController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrAuthViewController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrController.o /Users/charliemezak/Documents/EOL/Classes/FlickrController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265192.732919
+e280265193.220270
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrController.o
+x/Users/charliemezak/Documents/EOL/Classes/FlickrController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController authenticate:]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:79: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:84: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController generateSignatureForUpload]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:117: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:122: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:150: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:163: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController connection:didFailWithError:]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:250: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController connection:didReceiveData:]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:265: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController loadData]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:288: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController saveData]':
+o/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:326: warning: format not a string literal and no format arguments
+lSLF07#2@68"Compile /Users/charliemezak/Documents/EOL/Classes/FlickrController.m280265192#280265193#0(2270"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController authenticate:]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:79: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:84: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController generateSignatureForUpload]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:117: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:122: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:150: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController parser:didEndElement:namespaceURI:qualifiedName:]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:163: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController connection:didFailWithError:]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:250: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController connection:didReceiveData:]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:265: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController loadData]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:288: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/FlickrController.m: In function '-[FlickrController saveData]':/Users/charliemezak/Documents/EOL/Classes/FlickrController.m:326: warning: format not a string literal and no format arguments10(22@51"Format not a string literal and no format arguments280265192#111#126#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#79#0#79#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#237#126#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#84#0#84#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#487#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#117#0#117#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#614#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#122#0#122#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#900#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#150#0#150#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#1173#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#163#0#163#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265192#1426#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#250#0#250#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1677#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#265#0#265#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#1910#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#288#0#288#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments280265193#2143#127#0(6@60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m280258829#326#0#326#0#51"format not a string literal and no format arguments0(0#0#60"/Users/charliemezak/Documents/EOL/Classes/FlickrController.m2543396976#1756"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/FlickrController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/FlickrController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageBrowserViewController.o /Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265193.515413
+e280265193.972758
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageBrowserViewController.o
+x/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m: In function '-[ImageBrowserViewController reloadSubviews]':
+o/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m:108: warning: format not a string literal and no format arguments
+o/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m: At top level:
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used
+lSLF07#2@78"Compile /Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m280265193#280265193#0(452"/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m: In function '-[ImageBrowserViewController reloadSubviews]':/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m:108: warning: format not a string literal and no format arguments/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m: At top level:/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used3(22@51"Format not a string literal and no format arguments280265193#132#137#0(6@70"/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m280258829#108#0#108#0#51"format not a string literal and no format arguments0(23@13"At top level:280265193#269#86#0(6@70"/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m280258829#0#0#0#0#0"0(22@30"'caption' defined but not used280265193#355#97#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h280258829#14#0#14#0#24"'*' defined but not used0(0#0#70"/Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m2543396976#1776"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/ImageBrowserViewController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageBrowserViewController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageDetailViewController.o /Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265193.712064
+e280265194.283965
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageDetailViewController.o
+x/Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used
+lSLF07#2@77"Compile /Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m280265193#280265194#0(97"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used1(22@30"'caption' defined but not used280265194#0#97#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h280258829#14#0#14#0#24"'*' defined but not used0(0#0#69"/Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m2543396976#1774"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/ImageDetailViewController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/ImageDetailViewController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/SettingsViewController.o /Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265270.463727
+e280265271.170132
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/SettingsViewController.o
+x/Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used
+lSLF07#2@74"Compile /Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m280265270#280265271#0(97"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h:14: warning: 'caption' defined but not used1(22@30"'caption' defined but not used280265271#0#97#0(6@52"/Users/charliemezak/Documents/EOL/Classes/EOLImage.h280258829#14#0#14#0#24"'*' defined but not used0(0#0#66"/Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m2543396976#1768"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/Classes/SettingsViewController.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/main.o /Users/charliemezak/Documents/EOL/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265192.291605
+e280265192.493982
+r1
+xCompileC
+xbuild/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/main.o
+x/Users/charliemezak/Documents/EOL/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/charliemezak/Documents/EOL/main.m280265192#280265192#0(0"0(0#0#40"/Users/charliemezak/Documents/EOL/main.m4375320#1724"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -include /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch -c /Users/charliemezak/Documents/EOL/main.m -o /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/charliemezak/Documents/EOL/MainWindow.xib
+s280265189.020402
+e280265190.699862
+r1
+xCompileXIB
+x/Users/charliemezak/Documents/EOL/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib280265189#280265190#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/charliemezak/Documents/EOL/MainWindow.xib4375320#463"    cd /Users/charliemezak/Documents/EOL    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/MainWindow.nib /Users/charliemezak/Documents/EOL/MainWindow.xib0#
+
+CCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Entitlements.plist Entitlements.plist
+s280265189.151334
+e280265189.832015
+r1
+xCopyPlistFile
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist280265189#280265189#0(0"0(0#0#52"/Users/charliemezak/Documents/EOL/Entitlements.plist2543396976#379"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Images.plist Images.plist
+s280265189.832220
+e280265189.888746
+r1
+xCopyPlistFile
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Images.plist
+xImages.plist
+lSLF07#2@17"Copy Images.plist280265189#280265189#0(0"0(0#0#46"/Users/charliemezak/Documents/EOL/Images.plist4375320#373"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Images.plist --outdir /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCopyPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/UserInfo.plist UserInfo.plist
+s280265189.888949
+e280265189.957160
+r1
+xCopyPlistFile
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/UserInfo.plist
+xUserInfo.plist
+lSLF07#2@19"Copy UserInfo.plist280265189#280265189#0(0"0(0#0#48"/Users/charliemezak/Documents/EOL/UserInfo.plist2543396976#375"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 UserInfo.plist --outdir /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/Default.png Default.png
+s280265189.033827
+e280265189.136908
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png280265189#280265189#0(0"0(0#0#45"/Users/charliemezak/Documents/EOL/Default.png2543396976#436"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/Default.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/Icon.png Icon.png
+s280265189.140371
+e280265189.157618
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png280265189#280265189#0(0"0(0#0#42"/Users/charliemezak/Documents/EOL/Icon.png2543396976#433"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/Icon.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/background.png background.png
+s280265189.048683
+e280265189.139554
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png280265189#280265189#0(0"0(0#0#48"/Users/charliemezak/Documents/EOL/background.png2543396976#439"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/background.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/eBar.png eBar.png
+s280265189.036748
+e280265189.137345
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/eBar.png
+xeBar.png
+lSLF07#2@13"Copy eBar.png280265189#280265189#0(0"0(0#0#42"/Users/charliemezak/Documents/EOL/eBar.png2543396976#433"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/eBar.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/eolLogo.png eolLogo.png
+s280265189.078733
+e280265189.158219
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/eolLogo.png
+xeolLogo.png
+lSLF07#2@16"Copy eolLogo.png280265189#280265189#0(0"0(0#0#45"/Users/charliemezak/Documents/EOL/eolLogo.png2543396976#436"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/eolLogo.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/grid.png grid.png
+s280265189.061367
+e280265189.157927
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/grid.png
+xgrid.png
+lSLF07#2@13"Copy grid.png280265189#280265189#0(0"0(0#0#42"/Users/charliemezak/Documents/EOL/grid.png2543396976#433"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/grid.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/redButton.png redButton.png
+s280265189.040704
+e280265189.138852
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/redButton.png
+xredButton.png
+lSLF07#2@18"Copy redButton.png280265189#280265189#0(0"0(0#0#47"/Users/charliemezak/Documents/EOL/redButton.png2543396976#438"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/redButton.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/settings.png settings.png
+s280265189.044425
+e280265189.139265
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/settings.png
+xsettings.png
+lSLF07#2@17"Copy settings.png280265189#280265189#0(0"0(0#0#46"/Users/charliemezak/Documents/EOL/settings.png2543396976#437"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/settings.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/settingsLogo.png settingsLogo.png
+s280265189.068162
+e280265189.140127
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/settingsLogo.png
+xsettingsLogo.png
+lSLF07#2@21"Copy settingsLogo.png280265189#280265189#0(0"0(0#0#50"/Users/charliemezak/Documents/EOL/settingsLogo.png2543396976#441"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/settingsLogo.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CCpResource build/Debug-iphonesimulator/EOL.app/settingsLogoopaque.png settingsLogoopaque.png
+s280265189.055809
+e280265189.139841
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/EOL.app/settingsLogoopaque.png
+xsettingsLogoopaque.png
+lSLF07#2@27"Copy settingsLogoopaque.png280265189#280265189#0(0"0(0#0#56"/Users/charliemezak/Documents/EOL/settingsLogoopaque.png2543396976#447"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/charliemezak/Documents/EOL/settingsLogoopaque.png /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
+CGenerateDSYMFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app.dSYM /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL
+s280265271.301933
+e280265271.538133
+r1
+xGenerateDSYMFile
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app.dSYM
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/EOL.app.dSYM build/Debug-iphonesimulator/EOL.app/EOL280265271#280265271#0(0"0(0#0#73"/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL2543396976#356"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL -o /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app.dSYM0#
+
+CLd /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL normal i386
+s280265271.170375
+e280265271.301707
+r1
+xLd
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL
+xnormal
+xi386
+lSLF07#2@78"Link /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL280265271#280265271#0(0"0(0#0#0"2543396976#843"    cd /Users/charliemezak/Documents/EOL    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -filelist /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/Objects-normal/i386/EOL.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/EOL0#
+
+CProcessInfoPlistFile /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Info.plist EOL-Info.plist
+s280265188.952651
+e280265189.018602
+r1
+xProcessInfoPlistFile
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Info.plist
+xEOL-Info.plist
+lSLF07#2@22"Process EOL-Info.plist280265188#280265189#0(0"0(0#0#48"/Users/charliemezak/Documents/EOL/EOL-Info.plist4375320#452"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility EOL-Info.plist -genpkginfo /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app/Info.plist0#
+
+CProcessPCH /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch.gch EOL_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s280265190.700377
+e280265192.291192
+r1
+xProcessPCH
+x/var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch.gch
+xEOL_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile EOL_Prefix.pch280265190#280265192#0(0"0(0#0#48"/Users/charliemezak/Documents/EOL/EOL_Prefix.pch4375320#1625"    cd /Users/charliemezak/Documents/EOL    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-generated-files.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-own-target-headers.hmap -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-all-target-headers.hmap -iquote /Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/EOL-project-headers.hmap -F/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator -I/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/include -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources/i386 -I/Users/charliemezak/Documents/EOL/build/EOL.build/Debug-iphonesimulator/EOL.build/DerivedSources -c /Users/charliemezak/Documents/EOL/EOL_Prefix.pch -o /var/folders/jE/jEULHJYGGr4qwyzleTE2ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/EOL_Prefix-efwixgqcelukheeptthxndfqzlcn/EOL_Prefix.pch.gch0#
+
+CTouch /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app
+s280265271.538321
+e280265271.547759
+r1
+xTouch
+x/Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app
+lSLF07#2@75"Touch /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app280265271#280265271#0(0"0(0#0#0"2543396976#264"    cd /Users/charliemezak/Documents/EOL    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/charliemezak/Documents/EOL/build/Debug-iphonesimulator/EOL.app0#
+
