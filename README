@@ -1,0 +1,24 @@
+= Encyclopedia of Life
+= www.eol.org
+
+== AUTHOR
+
+Natural Guides LLC
+http://naturalguides.com/
+
+== INTRODUCTION
+
+This project was created for the Encyclopedia of Life by Natural Guides LLC. It contains code for an application
+built specifically for the Apple iPhone. The application allows users to take photographs, submit the photos to
+a group in the Flickr photo sharing website. It also helps the user tag the photo with the name of the organism
+featured in the photograph. The Encyclopedia of Life regularly indexes its group in Flickr and will feature
+any properly submitted images on its EOL taxon pages.
+
+You can find this application in the Apple iTunes Store by going to:
+http://itunes.apple.com/us/app/encyclopedia-life-uploader/id303879202?mt=8 (link will attempt to open the
+Apple iTunes application)
+
+== LICENSE
+
+The full code base is released under the MIT License.  Details are available in the "MIT-LICENSE.txt" file at
+the root of the code folder.
